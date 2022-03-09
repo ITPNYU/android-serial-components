@@ -12,16 +12,16 @@ body:
 id: Scenario
 attributes:
 label: Given
-      description: (the context within which the operation is to occur)
-      placeholder: ex. the User has logged in
-    validations:
-      required: true
+description: (the context within which the operation is to occur)
+placeholder: ex. the User has logged in
+validations:
+  required: true
   - type: dropdown
     id: step
     attributes:
-      options:
-        - AND (additional context)
-        - WHEN (the action is performed)
+    options:
+    - AND (additional context)
+    - WHEN (the action is performed)
   - type: input
     attributes:
       placeholder: ex. the User has logged in
