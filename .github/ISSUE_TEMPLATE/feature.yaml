@@ -14,10 +14,20 @@ body:
       placeholder: ex. the User has logged in
     validations:
       required: true
+  - type: dropdown
+    id: step
+    attributes:
+      options:
+        - AND (additional context)
+        - WHEN (the action is performed)
   - type: input
     attributes:
-      label: And
-      description: (the context within which the operation is to occur)
+      placeholder: ex. the User has logged in
+    validations:
+      required: true   
+  attributes:
+      label: When
+      description: (addition context within which the operation is to occur)
       placeholder: ex. the User has logged in
     validations:
       required: true     
