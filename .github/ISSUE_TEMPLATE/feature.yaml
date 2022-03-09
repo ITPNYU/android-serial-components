@@ -2,10 +2,9 @@ name: Feature
 description: A Feature describes a single application function
 labels: ["feature"]
 body:
-  
   - type: markdown
     attributes:
-      value: Steps 
+      value:|
         Please Describe the feature in descreet steps with context 
   - type: input
     id: Scenario
