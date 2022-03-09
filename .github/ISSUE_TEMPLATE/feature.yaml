@@ -1,6 +1,5 @@
 name: Feature
 description: A Feature describes a single application function
-title: "[Feature]: "
 labels: ["feature"]
 body:
   - type: markdown
