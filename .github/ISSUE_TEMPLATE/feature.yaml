@@ -4,7 +4,7 @@ labels: ["feature"]
 assignees:
   - octocat
 body:
-  - type: markdown
+- type: markdown
     attributes:
       value:|
         Please Describe the feature in descreet steps with context 
