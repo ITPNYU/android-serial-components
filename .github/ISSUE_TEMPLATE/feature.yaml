@@ -5,10 +5,10 @@ assignees:
   - octocat
 body:
 - type: markdown
-    attributes:
+  attributes:
       value:|
         Please Describe the feature in descreet steps with context 
-  - type: input
+- type: input
     id: Scenario
     attributes:
       label: Given
