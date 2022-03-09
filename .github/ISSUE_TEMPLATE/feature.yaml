@@ -2,6 +2,7 @@ name: Feature
 description: A Feature describes a single application function
 labels: ["feature"]
 body:
+  
   - type: markdown
     attributes:
       value: Steps 
