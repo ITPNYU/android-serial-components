@@ -9,9 +9,9 @@ body:
       value:|
         Please Describe the feature in descreet steps with context 
 - type: input
-    id: Scenario
-    attributes:
-      label: Given
+id: Scenario
+attributes:
+label: Given
       description: (the context within which the operation is to occur)
       placeholder: ex. the User has logged in
     validations:
