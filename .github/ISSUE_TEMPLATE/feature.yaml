@@ -1,6 +1,8 @@
 name: Feature
 description: A Feature describes a single application function
 labels: ["feature"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
