@@ -2,8 +2,6 @@ name: Feature
 description: A Feature describes a single application function
 title: "[Feature]: "
 labels: ["feature"]
-assignees:
-  
 body:
   - type: markdown
     attributes:
