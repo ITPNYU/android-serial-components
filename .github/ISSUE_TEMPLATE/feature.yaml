@@ -1,4 +1,4 @@
-name: "Feature"
+name: Foo
 description: A Feature describes a single application function
 labels: ["feature"]
 assignees:
