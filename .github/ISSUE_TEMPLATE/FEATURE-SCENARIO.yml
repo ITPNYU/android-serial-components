@@ -1,4 +1,4 @@
-name: Feature Scenario
+name: FEATURE SCENARIO
 description: A Feature describes a single application function
 labels: ["feature"]
 assignees:
