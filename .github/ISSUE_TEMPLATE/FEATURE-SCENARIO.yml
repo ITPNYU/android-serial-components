@@ -3,7 +3,7 @@ description: A step by step explanation for a proposed feature, including precon
 title: As an  <Actor> ...
 body:
 - type: input
-  id: defintion
+  id: context_1
   attributes:
     description: "Please explain the feature step by step"
     label: "Given"
@@ -12,7 +12,7 @@ body:
   validations:
     required: true
 - type: input
-  id: defintion
+  id: context_2
   attributes:
     description: "Please explain the feature step by step"
     label: "AND"
