@@ -1,1 +1,4 @@
-name: FEATURE SCENARIO
+name: Feature scenario
+description: A step by step explanation for a proposed feature, including preconditions and context. 
+title: As an  <Actor> ...
+
