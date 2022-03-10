@@ -17,7 +17,7 @@ body:
     description: "provide additional preconditions here"
     label: "AND"
     
-    placeholder: "ex. _They have navigated to the settings page_"
+    placeholder: "ex. They have navigated to the settings page"
   validations:
     required: false
 - type: input
@@ -28,7 +28,15 @@ body:
     
     placeholder: "They select the  \'Update Email\ button'"
   validations:
-    required:  true   
+    required:  true 
+ - type: input
+  id: required_action
+  attributes:
+    description: "an action triggered in response to the action taken"
+    label: "AND"
+    placeholder: "ex. The user successfully logs in again"
+  validations:
+    required: false
     
     
    
