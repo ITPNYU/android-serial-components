@@ -7,29 +7,28 @@ body:
   attributes:
     description: "provide the precondition or context required in order to execute the action"
     label: "Given"
-    
     placeholder: "That the User is logged in"
   validations:
     required: true
+    
 - type: input
   id: context_2
   attributes:
     description: "provide additional preconditions here"
     label: "AND"
-    
     placeholder: "ex. They have navigated to the settings page"
   validations:
     required: false
+    
 - type: input
   id: trigger
   attributes:
     description: "the action taken"
     label: "WHEN"
-    
     placeholder: "They select the  \'Update Email\ button'"
   validations:
     required:  true 
- - type: input
+- type: input
   id: required_action
   attributes:
     description: "an action triggered in response to the action taken"
