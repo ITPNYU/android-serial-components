@@ -5,7 +5,7 @@ body:
 - type: input
   id: context_1
   attributes:
-    description: "Please explain the feature step by step"
+    description: "provide the precondition or context required in order to execute the action"
     label: "Given"
     
     placeholder: "That the User is logged in"
@@ -14,9 +14,21 @@ body:
 - type: input
   id: context_2
   attributes:
-    description: "Please explain the feature step by step"
+    description: "provide additional preconditions here"
     label: "AND"
     
-    placeholder: "They have navigated to the settings page"
+    placeholder: "ex. _They have navigated to the settings page_"
   validations:
     required: false
+- type: input
+  id: trigger
+  attributes:
+    description: "the action taken"
+    label: "WHEN"
+    
+    placeholder: "They select the  \'Update Email\ button'"
+  validations:
+    required:  true   
+    
+    
+   
