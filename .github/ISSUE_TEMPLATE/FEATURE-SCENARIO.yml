@@ -6,7 +6,7 @@ body:
   id: defintion
   attributes:
     description: "Please explain the feature step by step"
-    label: "## Given"
+    label: "Given"
     
     placeholder: "Whenever I visit the user account page (1-2 times a week)"
   validations:
