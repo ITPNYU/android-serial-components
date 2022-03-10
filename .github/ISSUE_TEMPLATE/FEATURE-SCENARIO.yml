@@ -8,6 +8,15 @@ body:
     description: "Please explain the feature step by step"
     label: "Given"
     
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    placeholder: "That the User is logged in"
   validations:
     required: true
+- type: input
+  id: defintion
+  attributes:
+    description: "Please explain the feature step by step"
+    label: "AND"
+    
+    placeholder: "They have navigated to the settings page"
+  validations:
+    required: false
