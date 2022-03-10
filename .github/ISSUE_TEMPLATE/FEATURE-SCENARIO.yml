@@ -5,8 +5,9 @@ body:
 - type: input
   id: defintion
   attributes:
-    label: "## Given"
     description: "Please explain the feature step by step"
+    label: ## Given
+    
     placeholder: "Whenever I visit the user account page (1-2 times a week)"
   validations:
     required: true
