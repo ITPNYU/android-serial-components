@@ -4,7 +4,7 @@ title: As an  <Actor> ...
 body:
 - type: markdown
   attributes:
-    value: "## Welcome!"
+    value: "# Scenario"
 - type: input
   id: context_1
   attributes:
@@ -28,21 +28,24 @@ body:
   attributes:
     description: "the action taken"
     label: "WHEN"
-    placeholder: "They select the  \'Update Email\ button'"
+    placeholder: "ex. They enter the new email in the provided field"
   validations:
     required:  true 
 - type: input
-  id: required_action
+  id: secondary_action_response
   attributes:
-    description: "an action triggered in response to the action taken"
+    description: "an interim response to the triggering action"
     label: "AND"
     placeholder: "ex. The user successfully logs in again"
   validations:
     required: false
+- type: markdown
+  attributes:
+    value: "# Desired Outcome"
 - type: input
   id: expected_action
   attributes:
-    description: "The execution of the action"
+    description: "expected result of the Action taken"
     label: "THEN"
     placeholder: "ex. The User can update their email in the input field provided"
   validations:
