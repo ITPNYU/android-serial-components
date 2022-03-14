@@ -4,7 +4,7 @@ title: As an  <Actor> ...
 body:
 - type: markdown
   attributes:
-  value: "## Welcome!"
+    value: "## Welcome!"
 - type: input
   id: context_1
   attributes:
