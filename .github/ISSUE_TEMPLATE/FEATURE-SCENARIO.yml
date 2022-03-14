@@ -1,5 +1,5 @@
 name: Feature scenario
-description: A step by step explanation for a proposed feature, including preconditions and context. 
+description: A step by step explanation for a proposed feature, including preconditions for context. 
 title: As an  <Actor> ...
 body:
 - type: markdown
