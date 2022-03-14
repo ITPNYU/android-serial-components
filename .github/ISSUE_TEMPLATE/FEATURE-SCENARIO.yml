@@ -36,6 +36,13 @@ body:
     placeholder: "ex. The user successfully logs in again"
   validations:
     required: false
-    
+- type: input
+  id: expected_action
+  attributes:
+    description: "The execution of the action"
+    label: "THEN"
+    placeholder: "ex. The User can update their email in the input field provided"
+  validations:
+    required: true
     
    
