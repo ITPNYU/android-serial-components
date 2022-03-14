@@ -2,6 +2,8 @@ name: Feature scenario
 description: A step by step explanation for a proposed feature, including preconditions and context. 
 title: As an  <Actor> ...
 body:
+- type: markdown
+  value: "## Scenario"
 - type: input
   id: context_1
   attributes:
