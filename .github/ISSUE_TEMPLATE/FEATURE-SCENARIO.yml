@@ -36,7 +36,7 @@ body:
   attributes:
     description: "an interim response to the triggering action"
     label: "AND"
-    placeholder: "the user successfully logs in again to confirm the update"
+    placeholder: "the user successfully logs in again  (confirmation authorization)"
   validations:
     required: false
 - type: markdown
@@ -47,7 +47,7 @@ body:
   attributes:
     description: "expected result of the Action taken"
     label: "THEN"
-    placeholder: "the user's email is updated" 
+    placeholder: "the email key is updated in the User's account" 
   validations:
     required: true
     
